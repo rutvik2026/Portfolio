@@ -627,7 +627,7 @@ width: 100%;
 
 	}
 }
-@media(max-width: 768px){
+@media(max-width: 412px){
 	.navOptions{
 		position: absolute;
 		top: 100%;
@@ -643,6 +643,25 @@ width: 100%;
 		font-size: 2rem;
 		margin: 3rem;
 	}
+    .content{
+        display: block;
+
+    }
+    .AboutInfo{
+        display: block;
+    }
+    .Home{
+        position: absolute;
+        width: 100%;
+    }
+    .about1{
+        position: absolute;
+        width: 100%;
+    }
+    body{
+        position: absolute;
+        width: 100%;
+    }
 }
 /* code of new skill*/
 .main{

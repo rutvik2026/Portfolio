@@ -32,4 +32,27 @@ document.addEventListener('DOMContentLoaded', function() {
     // Ensure you use `Typed` (with capital 'T') and not `typed`
     var typed = new Typed(".text", options);
 });
-   
+    const handleDownloadResume = () => {
+      const button = document.getElementById();
+    };
+    document
+      .getElementById("downloadBtn")
+      .addEventListener("click", function () {
+        const link = document.createElement("a");
+        link.href = "rutvik_resume.pdf"; // Ensure correct file path
+        link.download = "Rutvik_Bansode_Resume.pdf"; // Forces download
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      });
+    document.addEventListener("DOMContentLoaded", function () {
+      // Get the submit button
+      const submitBtn = document.getElementById("submitBtn");
+
+      // Add click event listener
+      submitBtn.addEventListener("click", function (event) {
+        event.preventDefault(); // Prevent form submission
+        alert("Thank you for your message!");
+      });
+    });
+
