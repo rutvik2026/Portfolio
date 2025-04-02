@@ -118,195 +118,199 @@ body{
 .b{
 	
 }*/
-.A{
-	color: #fff;
-	margin-right: 40px;
-	font-size: 1.5rem;
-
-}
-.logo{
-	margin-left: 40px;
-	font-size: 2rem;
-	opacity: 0;
-	animation: slideleft 1s ease .4s forwards;
-}
-span{
-	color: #0ef;
-}
-.content{
-	width: 100%;
-	height: 90%;
-	color: #fff;
-	margin-top: 70px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-.img{
-	background-image: url('RutvikImg.jpg');
-	background-size: cover;
-	width: 500px;
-	height: 500px;
-	border-radius: 50%;
-	margin-right: 70px;
-	box-shadow: 0px 0px 40px #0ef;
-	box-shadow: 0 0 5px cyan,0 0 25px cyan
-	,0 0 50px cyan,0 0 100px cyan,0 0 200px cyan;
-	opacity: 0;
-	animation: slideleft 1s ease 1s forwards;
-
-}
-.intro{
-	margin: 20px;
-	font-size: 2.5rem;
-	opacity: 0;
-	animation: slideTop 1s ease .7s forwards;
-}
-.name{
-	margin: 20px;
-	font-size: 2rem;
-	opacity: 0;
-	animation: slideRight 1s ease 1s forwards;
-}
-.js{
-	margin: 20px;
-	font-size: 1.5rem;
-	opacity: 0;
-	animation: slideleft 1s ease 1s forwards;
-}
-.para{
-	margin: 20px;
-	font-weight: 300;
-	opacity: 0;
-	animation: slidebuttom 1s ease 1s forwards;
-
-}
-.info{
-	margin-left: 50px;
+/* General styles */
+/* General styles */
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #081b29;
 }
 
-.ic{
-	width: 284px;
-	height: 81;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	
-	margin-right: 20px;
-	padding: 20px;
-	font-size: 1.5rem;
-	margin-top: 30px;
-	opacity: 0;
-	animation: slideleft 1s ease 1s forwards;
-	
-
+.A {
+    color: #fff;
+    margin-right: 40px;
+    font-size: 1.5rem;
 }
-.i{
-	margin-right: 20px;
-	
-	margin-left: 20px;
-	height: 40px;
-	width: 40px;
-	border-radius: 50%;
-	border: 1px solid cyan;
-	color: #0ef;
-	
-	background-color: transparent;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 
-
-
+.logo {
+    margin-left: 40px;
+    font-size: 2rem;
+    opacity: 0;
+    animation: slideleft 1s ease .4s forwards;
 }
-.i:hover{
-	background-color:#0ef;
 
-	color:#081b29;
-	box-shadow: 0 0 20px #0ef;
+span {
+    color: #0ef;
+}
 
+.content {
+    width: 100%;
+    height: auto;
+    color: #fff;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
 }
-.btn{
-	margin-top: 40px;
-	display: inline-block;
-	padding: 12px 28px;
-	background-color: #0ef;
-	border-radius: 40px;
-	font-size: 16px;
-	color: #081b29;
-	letter-spacing: 1px;
-	font-weight: 600;
-	opacity: 0;
-	animation: slidebuttom 1s ease .5s forwards;
 
+.info {
+    margin-left: 50px;
+    opacity: 1;
+    animation: fadeIn 1s ease 1s forwards;
+}
 
+.intro {
+    margin: 20px;
+    font-size: 2.5rem;
+    opacity: 1;
+    animation: slideTop 1s ease .7s forwards;
+    color: #fff;
 }
-.btn:hover{
-	box-shadow: 0 0 5px cyan,0 0 25px cyan
-	,0 0 50px cyan,0 0 100px cyan,0 0 200px cyan
-}
-/*About Section*/
-.about1{
-	display: block;
-	margin-top: 10px;
-	
-}
-.ab{
-	width: 100%;
-	height: 90%;
-	margin-top: 10px;
-	display: flex;
-	align-items: center;
-	
 
+.name {
+    margin: 20px;
+    font-size: 2rem;
+    opacity: 1;
+    animation: slideRight 1s ease 1s forwards;
+    color: #fff;
 }
-.About{
 
-width: 100%;
-	height: 90%;
-	margin-top: 200px;
+.js {
+    margin: 20px;
+    font-size: 1.5rem;
+    opacity: 1;
+    animation: slideleft 1s ease 1s forwards;
+    color: #fff;
+}
 
+.para {
+    margin: 20px;
+    font-weight: 300;
+    opacity: 1;
+    animation: slidebottom 1s ease 1s forwards;
+    color: #fff;
+}
 
+.img {
+    background-image: url('RutvikImg.jpg');
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin-right: 70px;
+    box-shadow: 0 0 40px #0ef;
 }
-.AboutInfo{
-	margin-top: 10px;
-	display: flex;
-	align-items: center;
-	justify-content: space-evenly;
-	
-	
-}
-.AboutIntro{
 
-	margin-left: 400px;
-	font-size: 4rem;
-	color: #fff;
-	opacity: 0;
-	animation: slideTop 1s ease 0.5s forwards;
+.ic {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
 }
-.img1{
-	width: 300px;
-	height: 300px;
-	border-radius: 50%;
-	background-image: url('RutvikImg.jpg');
-	background-size: cover;
-	box-shadow: 0 0 5px cyan,0 0 25px cyan
-	,0 0 50px cyan,0 0 100px cyan,0 0 200px cyan;
-	opacity: 0;
-	animation: slideleft 1s ease 1s forwards;
+
+.i {
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid cyan;
+    color: #0ef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.AboutPara p{
-	width: 500px;
-	height: 300px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: 1.5rem;
-	font-weight: 400;
-	color: #fff;
-	opacity: 0;
-	animation: slidebuttom 1s ease .7s forwards;
+
+.i:hover {
+    background-color: #0ef;
+    color: #081b29;
+    box-shadow: 0 0 20px #0ef;
 }
+
+.btn {
+    margin-top: 20px;
+    padding: 12px 28px;
+    background-color: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn:hover {
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+}
+
+/* About Section */
+.about1 {
+    margin-top: 20px;
+}
+
+.AboutIntro {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.AboutInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url('RutvikImg.jpg');
+    background-size: cover;
+    box-shadow: 0 0 20px cyan;
+}
+
+.AboutPara p {
+    width: 500px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/* Responsive Design for Mobile */
+@media screen and (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .info {
+        margin-left: 0;
+    }
+
+    .img {
+        width: 250px;
+        height: 250px;
+        margin: 20px 0;
+    }
+
+    .ic {
+        justify-content: center;
+    }
+
+    .AboutInfo {
+        flex-direction: column;
+    }
+
+    .img1 {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .AboutPara p {
+        width: 80%;
+        font-size: 1.2rem;
+    }
+}
+
 /*Project section*/
 .project{
 	width: 100%;
@@ -519,95 +523,72 @@ width: 100%;
 	animation: slideRight 1s ease 0.5s forwards;
 }
 /*skills Section*/
-.skills{
-	margin-top: 200px;
-	width: 100%;
-	height: 90%;
-	padding-top: 20px;
+/* Responsive Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
-.skill{
-	
-	color: #fff;
-	margin-top: 20px;
-	
 
+.skills {
+    margin-top: 100px;
+    width: 100%;
+    padding: 20px;
+    background: #1f242d;
+    color: #fff;
 }
-.skillText{
-	margin-top: 70px;
-	margin-left: 500px;
-	font-size: 3rem;
-	opacity: 0;
-	animation: slideTop 1s ease .5s forwards;
 
+.skillText {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
 }
-.ttl{
-	font-size: 1.5rem;
-	width: 600px;
-	display: flex;
-	justify-content: space-between;
-	font-weight: 100;
-	margin-left: 20px;
-	opacity: 0;
-	animation: slideleft 1s ease .7s forwards;
 
+.Skil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
 
+.techSkill, .proSkill {
+    width: 100%;
+    max-width: 500px;
+    background: #323946;
+    padding: 20px;
+    border-radius: 10px;
 }
-.ttldiv{
-	display: flex;
-	margin-top: 10px;
-}
-.ttlText{
-	margin-right: 20px;
-	margin-left: 20px;
-	
-}
-.ttlIcon{
-	font-size: 2rem;
-	margin-left: 10px;
-	color: #0ef;
-}
-.comBar{
-	width: 600px;
-	height: 20px;
-	border: 2px solid #0ef;
-	border-radius: .6rem;
-	margin-top: 10px;
-	margin-left: 40px;
-	color: red;
-	display: flex;
-	align-items: center;
-	justify-content: start;
-}
-.comBar span{
-	width: 90%;
-	height: 18px;
-	display: block;
-	background: #0ef;
-	border-radius: .6rem;
-	opacity: 0;
-	animation: slidesp 1s ease .5s forwards;
 
+.skillname {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-align: center;
 }
-.Skil{
-	display: flex;
-	justify-content: space-between;
 
+.ul {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    list-style-type: none;
 }
-.communication{
-	width:200px ;
-	height: 200px;
-	border:20px solid transparent;
-	border-radius: 50%;
-	background-color: #323946;
 
+li {
+    font-size: 1rem;
+    margin: 5px 0;
 }
-.skillname{
-	margin-right: 20px;
-	font-size: 2rem;
-	opacity:0 ;
-	animation: slideRight 1s ease .8s forwards;
 
+@media (max-width: 768px) {
+    .skillText {
+        font-size: 1.5rem;
+    }
+    .skillname {
+        font-size: 1.5rem;
+    }
+    .ul {
+        font-size: 1rem;
+    }
 }
+/*old code */
 @media(max-width: 1200px){
 	html{
 		font-size: 55%;
@@ -663,7 +644,7 @@ width: 100%;
         width: 100%;
     }
 }
-/* code of new skill*/
+/* code of new skill
 .main{
 	display: flex;
 	margin-top: 50px;
@@ -684,7 +665,7 @@ width: 100%;
 
 	width: 100px;
 	height: 100px;
-	/*background:#1f242d;*/ 
+	/*background:#1f242d;*/ /*
 	padding: 3rem 2rem 4rem ;
 	border-radius: 2rem;
 	text-align: center;
@@ -708,4 +689,55 @@ li{
 	font-size: 1.2rem;
 	margin-left: 40px;
 	width: 500px;
+}*/
+@media (max-width: 768px) {
+    .projects {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .s {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .con {
+        width: 100%;
+        height: auto;
+    }
+    .content1, .content2 {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    .skillText, .sk, .conTtl {
+        margin-left: 0;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .Skil, .proSkill {
+        flex-direction: column;
+        align-items: center;
+    }
+    .skillname {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .ul {
+        width: 90%;
+        text-align: left;
+    }
+    .li2 {
+        width: 90%;
+    }
+    .contact1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .conForm {
+        width: 90%;
+        margin-left: 0;
+    }
+    .input-box input, .area, .btn {
+        width: 100%;
+    }
 }
