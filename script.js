@@ -23,7 +23,10 @@ header.classList.toggle('sticky',window.scrollY > 100);
 
 document.addEventListener('DOMContentLoaded', function() {
     var options = {
-        strings: ["Java Devloper", "Web Devloper","Android Devloper","python basics","App Devloper"],
+        strings: [ "Java Devloper",
+        "Full Stack Web Devloper",
+        "Android Devloper",
+        "python basics",],
         typeSpeed: 100,
         backSpeed: 100,
         loop:true
