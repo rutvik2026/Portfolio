@@ -39,8 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const button = document.getElementById();
     };
     document
-      .getElementById("downloadBtn")
-      .addEventListener("click", function () {
+      .getElementById("downloadBtn").addEventListener("click", function () {
         const link = document.createElement("a");
         link.href = "rutvik_resume.pdf"; // Ensure correct file path
         link.download = "Rutvik_Bansode_Resume.pdf"; // Forces download
