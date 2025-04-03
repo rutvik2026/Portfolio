@@ -842,7 +842,7 @@ li {
     width: 200px;
     height: 200px;
     margin-left: 80px;
-    margin-top: 50px;
+    margin-top: 250px;
   }
   .btn {
     width: 60%;
@@ -865,7 +865,7 @@ li {
     margin-left: 0;
   }
   .AboutPara p {
-    width: 350px;
+    width: 340px;
   }
   .skills {
     margin: 0;
@@ -904,7 +904,7 @@ li {
     margin: 0;
     height: 100%;
     width: 100%;
-    margin-top: 150px;
+    margin-top: 200px;
   }
   
 
@@ -950,7 +950,7 @@ li {
   .sk {
     margin: 0;
     margin-left: 70px;
-    margin-top: 300px;
+    margin-top: 280px;
   }
   .project {
     margin-top: 20px;
@@ -974,5 +974,5 @@ li {
   }
   .conForm {
     margin: 0;
-    width: 480px;
+    width: 460px;
   }
