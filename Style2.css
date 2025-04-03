@@ -807,7 +807,7 @@ li {
     position: absolute;
     top: 100%;
     left: 0;
-    width: 38%;
+    width: 35%;
 
     background: #323946;
     border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
@@ -815,7 +815,7 @@ li {
   }
   .navOptions a {
     display: block;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .content {
     margin: 0;
@@ -830,7 +830,7 @@ li {
   }
   .info {
     margin-left: 0;
-    height: 50%;
+    height: 35%;
   }
   .newImg {
     width: 100px;
@@ -865,7 +865,7 @@ li {
     margin-left: 0;
   }
   .AboutPara p {
-    width: 400px;
+    width: 350px;
   }
   .skills {
     margin: 0;
@@ -892,7 +892,7 @@ li {
     margin-left: 20px;
   }
   .li2 {
-    width: 350px;
+    width: 300px;
   }
   .proSkill {
     background: #0000005b;
@@ -904,7 +904,7 @@ li {
     margin: 0;
     height: 100%;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 150px;
   }
   
 
@@ -938,7 +938,7 @@ li {
   .Contacts {
     margin: 0;
     padding: 0;
-    margin-top: 1500px;
+    margin-top: 1800px;
 }
 
 
