@@ -798,3 +798,181 @@ li {
     width: 480px;
   }
 }
+
+@media (max-width: 721px) {
+    html,body{
+        overflow-x: hidden;
+    }
+  .navOptions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 38%;
+
+    background: #323946;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  }
+  .navOptions a {
+    display: block;
+    font-size: 1rem;
+  }
+  .content {
+    margin: 0;
+    margin-left: 0;
+    padding: 0;
+    display: block;
+  }
+  .Home {
+    width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  .info {
+    margin-left: 0;
+    height: 50%;
+  }
+  .newImg {
+    width: 100px;
+    height: 50px;
+  }
+  .img {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: 35px;
+  }
+  .btn {
+    width: 60%;
+    height: 8%;
+    margin-left: 70px;
+    text-align: center;
+  }
+  .about1 {
+    margin: 0;
+    padding: 30px;
+  }
+  .About {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .AboutIntro {
+    margin: 0;
+  }
+  .AboutInfo {
+    margin-left: 0;
+  }
+  .AboutPara p {
+    width: 400px;
+  }
+  .skills {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .skillText {
+    margin: 0;
+    padding: 0;
+    margin-left: 70px;
+  }
+  .Skil {
+    display: block;
+  }
+  .techSkill {
+    margin-top: 20px;
+    background: #0000005b;
+    padding-top: 10px;
+    border-radius: 30px;
+  }
+
+  .skillname {
+    margin-left: 20px;
+  }
+  .li2 {
+    width: 350px;
+  }
+  .proSkill {
+    background: #0000005b;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding-top: 10px;
+  }
+  .Projects {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+  }
+  
+
+
+ .s{
+	width: 350px;
+	height: 500px;
+	background-color: #1f242d;
+	border-radius: 20px;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	 cursor: pointer;
+	opacity: 0;
+	animation: slidebuttom 1s ease .7s forwards;
+}
+.s:hover{
+	
+	width: 370px;
+	height: 1060px;
+
+	border: 2px solid cya;
+	box-shadow: 0 0 5px cyan,0 0 25px cyan
+	,0 0 50px cyan,0 0 100px cyan,0 0 200px cyan;
+
+}
+
+
+
+
+  .Contacts {
+    margin: 0;
+    padding: 0;
+    margin-top: 1500px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+  .sk {
+    margin: 0;
+    margin-left: 70px;
+    margin-top: 300px;
+  }
+  .project {
+    margin-top: 20px;
+  }
+  .projects {
+    margin: 0;
+    display: block;
+    margin-left: 10px;
+  }
+  
+  .contact {
+    margin-top: 70px;
+  }
+  .conTtl {
+    margin: 0;
+
+    margin-left: 50px;
+  }
+  .contact1 {
+    display: block;
+  }
+  .conForm {
+    margin: 0;
+    width: 480px;
+  }
