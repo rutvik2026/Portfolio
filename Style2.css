@@ -848,7 +848,7 @@ li {
   .btn {
     width: 70%;
     height: 9%;
-    margin-left: 70px;
+    margin-left: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -960,6 +960,7 @@ li {
   }
   .project {
     margin-top: 560px;
+    margin-left:4px;
   }
   .projects {
     margin: 0;
