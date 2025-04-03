@@ -58,3 +58,17 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
 
+// Get reference to the button
+const toggleButton = document.getElementById('toggleButton');
+const cl=document.getElementByClass('s');
+// Add event listener to the button
+toggleButton.addEventListener('click', function() {
+  // Toggle the opacity between 1 and 0
+  if (cl.style.opacity === '1') {
+    toggleButton.style.opacity = '0'; // Set opacity to 0
+  } else {
+    cl.style.opacity = '1'; // Set opacity to 1
+  }
+});
+
+
