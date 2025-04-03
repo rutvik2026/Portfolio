@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
         strings: [ "Java Devloper",
         "Full Stack Web Devloper",
         "Android Devloper",
-        "python basics",],
+        ],
         typeSpeed: 100,
         backSpeed: 100,
         loop:true
