@@ -849,7 +849,10 @@ li {
     width: 70%;
     height: 9%;
     margin-left: 70px;
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   .about1 {
     margin: 0;
